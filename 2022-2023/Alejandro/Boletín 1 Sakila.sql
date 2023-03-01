@@ -66,3 +66,8 @@ SELECT customer_id,first_name,last_name,email,active FROM customer;
 
 SELECT DISTINCT ci.city_id,ci.city,co.country
 FROM customer c JOIN address a USING(address_id) JOIN city ci USING(city_id) JOIN country co USING(country_id)
+
+
+
+
+
